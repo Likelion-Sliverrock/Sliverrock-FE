@@ -5,7 +5,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 function FriendList(props) {
   const handleCallButtonClick = () => {
-    alert("전화걸기");
+    alert(`${props.friendList.phoneNum}로 전화 걸기`);
   };
 
   console.log(props);

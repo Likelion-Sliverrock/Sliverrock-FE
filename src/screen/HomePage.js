@@ -4,7 +4,7 @@ import Profile from "../components/Profile";
 import "../styles/HomePage.css";
 import Tab from "../components/Tab";
 import { useDispatch, useSelector } from "react-redux";
-import { setNearUserList, setMatchingId } from "../app/store.js";
+import { setNearUserList, setMatchingId } from "../app/store";
 import axios from "axios";
 
 //import axiosInstance from "../app/axios";
